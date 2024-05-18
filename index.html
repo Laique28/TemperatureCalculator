@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Temperature Converter</h2>
+        <input type="number" name="val" id="temp" min="1"><br>
+        <input type="radio" name="temp" id="fa">
+        <label for="fa">Celsuis To Fahrenhit</label><br>
+        <input type="radio" name="temp" id="cel">
+        <label for="cel">Fahrenhit To Celsuis</label><br><br>
+        <button type='submit' onclick="convert()">Convert</button>
+        <p id="result"></p>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
